@@ -4,12 +4,10 @@
  * and open the template in the editor.
  */
 
-package newPackage;
-
 /**
  *
  * @author Dan
  */
-public class NewClass {
+public class newClass {
     
 }
