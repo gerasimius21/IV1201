@@ -7,6 +7,7 @@
 package recruit.controller;
 
 import javax.ejb.Stateless;
+import recruit.DTOs.RecruitFormDTO;
 
 /**
  *
@@ -14,7 +15,11 @@ import javax.ejb.Stateless;
  */
 @Stateless
 public class RecruitController {
-
-    // Add business logic below. (Right-click in editor and choose
-    // "Insert Code > Add Business Method")
+    
+    private RecruitFormDTO form;
+    
+    public RecruitFormDTO createForm(){
+        
+        return form;
+    }
 }

@@ -10,6 +10,6 @@ package recruit.DTOs;
  *
  * @author Dan
  */
-public class NewClass {
+public interface RecruitFormDTO {
     
 }
